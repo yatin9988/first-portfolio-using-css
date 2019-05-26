@@ -1,0 +1,304 @@
+nav{
+    margin: auto;
+    padding-top: 10px;
+    justify-content: space-between;
+    display: flex;
+    max-width: 1000px;
+    width: 100%;
+}
+
+
+.containing,.containing2{
+    display: flex;
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+ul.anchor{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+}
+
+.code{
+    color: #303137;
+    text-transform: uppercase;
+    font-family: "Anton";
+    font-size: 35px;
+}
+
+.anchor .abc a,.dropdownLink a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: "Indie Flower";
+    font-size:35px;
+    padding-left: 20px;
+    color: #303137;
+}
+
+.dropdownLink{
+    display: none;
+}
+
+span{
+    color: #66B6D3;
+}
+
+.containing2{
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+
+header{
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    padding: 6em 0;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.image1:hover{
+    transform: scale(1.1);
+}
+
+.sec,.contact-container{
+    background-color: #F1F3Fa;
+    padding: 2em 2em;
+}   
+
+.image1{
+    transition: 2s ease-in-out;
+    border-radius: 50%;
+    max-width: 250px;
+    width: 100%;
+}
+
+.container h1{
+    font-family: "Kaushan Script";
+    text-transform: uppercase;
+    text-shadow: #303137 2px 2px 4px;
+}
+
+.media-object{
+    display: flex;
+    padding: 4em 1em;
+}
+
+.image2{
+    width: 180px;
+}
+
+.icon-wrapper{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+}
+
+.blurb-wrapper h3{
+    font-size: 24px;
+    color: black;
+}
+
+.blurb-wrapper div{
+    font-size: 18px;
+}
+
+.yat{
+    padding-bottom: 4em;
+}
+
+.blurb-wrapper{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: right;
+    color: #646B90;
+    flex: 1;
+}
+
+.part1{
+    display: flex;
+    justify-content: center;
+    flex: 1;
+    order: 2;
+}
+
+.part2{
+    order: 1;
+}
+
+.containing2,.containing{
+    justify-content: center;
+}
+
+.quote{
+    color: #FFFFFF;
+    background-color: #66B6D3;
+    border: none;
+    font-size: 18px;
+    padding: 0.8em 4em;
+    box-shadow: rgba(0,0,0,0.4) 0px 4px 20px;
+}
+
+.containing3{
+    font-family: "Indie Flower";
+    text-transform: uppercase;
+    padding-top: 2em;
+    text-align: center;
+    font-size: 35px;
+}
+
+.portfolio-wrapper{
+    justify-content: space-around;
+    flex-wrap: wrap;
+    display: flex;
+}
+
+.portfolio-object{
+    text-align: justify;
+    max-width: 200px;
+    margin: 1em 0.5em;
+}
+
+.portfolio-box{
+    transition: 0.2s ease-in-out;
+}
+
+.portfolio-box:hover{
+  cursor: pointer;
+  transform: scale(1.05);
+}
+
+.con{
+    margin: auto;
+    padding: 0;
+    max-width: 1000px;
+}
+
+.image5{
+        width: 180px;
+}
+
+.car{
+    margin: auto;
+    display: block;
+    margin-top: 4em;
+}
+
+.flex{
+    margin-top: 4em;
+    display: flex;
+    justify-content: center;
+}
+
+.button{
+    display: inline;
+    margin: auto;
+}
+
+.section-header{
+    text-align: center;
+}
+
+form label{
+    font-size: 14px;
+}
+
+.top{
+    padding-bottom: 0.75em;
+}
+
+.form-control{
+    background-color: #ffffff;
+    color: #292b2c;
+    line-height: 1.5;
+    max-width: 800px;
+    width: 100%;
+    border: 1px solid #ced4da;
+    padding: 0.375em 0.75em;
+    border-radius: 2px;
+    font-size: 1em;
+}
+
+@media screen and (max-width:820px){
+    .anchor .abc{
+        display: none;
+    }
+    
+    .anchor .abc a{
+        padding-right: 20px;
+    }
+
+    .anchor .dropdownLink {
+        display: block;
+        position: absolute;
+        top: 15px;
+        right: 20px;
+    }
+    
+    ul.anchor.responsive li.abc{
+        display: block;       
+    }
+
+    #z{
+        margin-top: 10px;
+    }
+
+    ul.anchor.responsive li.dropdownLink{
+        position: absolute;
+        top: 15px;
+        right: 20px;
+    } 
+
+    ul.anchor.responsive li{
+        position: relative;
+        text-align: right;
+        top: 40px;
+    }
+
+    
+
+    ul.anchor.responsive{
+        flex-direction: column;
+    }  
+    
+    .portfolio-wrapper{
+       justify-content: center; 
+    }
+
+    .media-object{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    div.part1{
+        order: 1;
+    }
+     
+    div.part2{
+        order: 2;
+    }
+
+    .image2,.image5{
+        padding: 0;
+    }
+
+    .containing,.containing2{
+        padding: 2em 0 2em 0;
+    }
+
+}
+
