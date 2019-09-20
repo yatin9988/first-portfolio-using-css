@@ -1,2 +1,2 @@
 # first-portfolio-using-css
-simple portfolio using css flexbox
+simple portfolio using css-flexbox
